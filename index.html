@@ -1,8 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+ <style>
+	 
+#myBio {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+	 
+#name {
+  background-color: white;
+  color:#2C3539;
+  font-size: 65px;
+  text-align: left;
+  Font-Family: 'Merriweather', Serif;  
+}
+#bio{
+  background-color: white;
+  color: darkslategray;
+  font-size: 30px;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  Font-Family: 'Muli', Sans-Serif;
+	 }
+
+
+	 
+</style>
   <head>
-    <meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Muli:300" rel="stylesheet">	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Untitled Document</title>
     <!-- Bootstrap -->
@@ -18,11 +46,40 @@
   
 <body>
   
-<div class="container">
+<div class="container-fluid">
 	<div class="row">
-  		<div class="col-sm-6">1 of 2</div>
-  		<div class="col-sm-6">2 of 2</div>
+  		<div class="col-sm-6" id = "myBio" style = "padding-top: 150px" >
+  		  		<div class="col-sm-2" id = "profilePic" >
+					<img src="images/profilePic.png" alt="my pic" style = "width: 100px; height: 100px;align-content: right">
+			 	</div>
+			 	
+			 	<div class="col-sm-10">
+			 		<p id = "name">  Kevin Le </p>
+			 	</div>
+			 	
+			 	<div class="col-sm-12" id = "bio" >
+				Hi, I am an aspiring software developeer from Houston, Texas, who is currently a fourth-year math major at the University of Texas at Austin. In my free time I enjoy cooking, playing games and learning! 
+
+				</div>
+				
+  			<div class="col-sm-1"  style = "padding-top: 300px" >
+				<a href="https://github.com/kevinvle1997"><img src="images/github.png" style="width:60px; height:60px" title="White flower" alt="Flower"></a>
+ 			</div>
+ 			
+ 			<div class="col-sm-1"  style = "padding-top: 300px" >
+				<a href="https://www.facebook.com/kevin.le.5602"><img src="images/facebook.jpg" style="width:60px; height:60px" title="White flower" alt="Flower"></a>
+ 			</div>
+ 			
+ 			 <div class="col-sm-1"  style = "padding-top: 300px" >
+				<a href="mailto:kevinvle1997@gmail.com"><img src="images/mail.png" style="width:60px; height:60px;align-self: flex-end" title="White flower" alt="Flower"></a>
+ 			
+		</div>
+
 	</div>
+	
+	<div class="col-sm-6">2 of 2</div>
+
+
 
 </div>
 
