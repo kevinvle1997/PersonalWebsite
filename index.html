@@ -8,12 +8,15 @@
   padding: 20px;
   text-align: center;
 }
+
+
 	 
 #name {
   background-color: white;
   color:#2C3539;
-  font-size: 65px;
+  font-size: 500%;
   text-align: left;
+  justify-content: center;
   Font-Family: 'Merriweather', Serif;  
 }
 #bio{
@@ -32,10 +35,18 @@
   <head>
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Muli:300" rel="stylesheet">	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Untitled Document</title>
+    <title>Kevin Le</title>
     <!-- Bootstrap -->
+	<link rel=”shortcut icon” href=”/favicon.ico” type=”image/x-icon”>
+	<link rel=”icon” href=”/favicon.ico” type=”image/x-icon”>
 	<link href="css/bootstrap.css" rel="stylesheet">
-
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -48,9 +59,9 @@
   
 <div class="container-fluid">
 	<div class="row">
-  		<div class="col-sm-6" id = "myBio" style = "padding-top: 150px" >
+  		<div class="col-sm-5" id = "myBio" style = "padding-top: 7%" >
   		  		<div class="col-sm-2" id = "profilePic" >
-					<img src="images/profilePic.png" alt="my pic" style = "width: 100px; height: 100px;align-content: right">
+					<img src="images/profilePic.png" alt="my pic" style = "width: 110%; height: 110%;align-content: right">
 			 	</div>
 			 	
 			 	<div class="col-sm-10">
@@ -58,68 +69,68 @@
 			 	</div>
 			 	
 			 	<div class="col-sm-12" id = "bio" >
-				Hi, I am an aspiring software developeer from Houston, Texas, who is currently a fourth-year math major at the University of Texas at Austin. In my free time I enjoy cooking, playing games and learning! 
+				Hello! I am an aspiring software developeer from Houston, Texas, who is currently a fourth-year math major at the University of Texas at Austin. In my free time I enjoy cooking, playing games and learning! All the projects on the right are open-source and can be found on github!
 
 				</div>
 				
-  			<div class="col-sm-1"  style = "padding-top: 300px" >
+  			<div class="col-sm-2"  style = "padding-top: 45%" >
 				<a href="https://github.com/kevinvle1997"><img src="images/github.png" style="width:60px; height:60px" title="White flower" alt="Flower"></a>
  			</div>
  			
- 			<div class="col-sm-1"  style = "padding-top: 300px" >
+ 			<div class="col-sm-2"  style = "padding-top: 45%" >
 				<a href="https://www.facebook.com/kevin.le.5602"><img src="images/facebook.jpg" style="width:60px; height:60px" title="White flower" alt="Flower"></a>
  			</div>
  			
- 			 <div class="col-sm-1"  style = "padding-top: 300px" >
+ 			 <div class="col-sm-2"  style = "padding-top: 45%" >
 				<a href="mailto:kevinvle1997@gmail.com"><img src="images/mail.png" style="width:60px; height:60px;align-self: flex-end" title="White flower" alt="Flower"></a>
  			
 		</div>
 
 	</div>
 	
-	<div class="col-sm-6" style="padding: 10%;">
-		<div class="row">
-		<div class="col-sm-6">
-		<div class="card" style = "padding: 10px">
+	<div class="col-sm-7" style="padding-top: 15%;">
+	
+	  <div class="row">
+		<div class="col-sm-4">
+		<div class="card" style = "padding: 5%" href = "">
 		  <img src="images/phone.jpg" alt="phone" style="width:100%">
 		  <div class="card-container">
-			<h4><b>AstroFinder</b></h4>
-			<p>Android</p>
+			<h4><b class = "projectTitle">AstroFinder</b></h4>
+			<p class ="projectDesc">Android</p>
 		  </div>
 		</div>
 		</div>
 
-		<div class="col-sm-6">
+		<div class="col-sm-4">
+			<div class="card" style = "padding: 5%">
+			  <img src="images/phone.jpg" alt="phone" style="width:100%">
+			  <div class="card-container">
+				<h4><b class = "projectTitle">GradeTracker</b></h4>
+				<p class ="projectDesc">IOS (WIP) </p>
+			  </div>
+			  </div>
+		</div>
 
-		<div class="card" style = "padding: 10px">
-		  <img src="images/phone.jpg" alt="phone" style="width:100%">
-		  <div class="card-container">
-			<h4><b>GradeTracker</b></h4>
-			<p>IOS</p>
-		  </div>
-		  </div>
-		  </div>
 
-		</div>		
-		<div class="row" >
-		<div class="col-sm-12">
-		<div class="card" style = "padding: 10px; margin: auto">
+		<div class="col-sm-4">
+		  <div class="card" style = "padding: 5%">
 		  <img src="images/website.jpg" alt="phone" style="width:100%">
-		  <div class="card-container">
-			<h4><b>This Website</b></h4>
-			<p>HTML/CSS/Bootstrap</p>
+			  <div class="card-container">
+				<h4> <b class = "projectTitle">This Website</b></h4>
+				<p class ="projectDesc">HTML/CSS/Bootstrap</p>
+			  </div>
 		  </div>
 		</div>
-		</div>
 
 
+	  </div>		
 
-		</div>
 		
 	</div>
 
 
 
+</div>
 </div>
 
   
